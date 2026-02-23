@@ -1,0 +1,156 @@
+{
+  "version": 1,
+  "samplesPerInference": 500,
+  "axesCount": 6,
+  "classes": [
+    "Up_Down_Continuous",
+    "Waving",
+    "hop_on_desk",
+    "idle_samples"
+  ],
+  "deployCounter": 1,
+  "folders": {
+    "input": "/home/input",
+    "output": "/home/output"
+  },
+  "frequency": 100,
+  "impulse": {
+    "inputBlocks": [
+      {
+        "id": 1,
+        "type": "time-series",
+        "name": "Time series",
+        "title": "Time series data",
+        "padZeros": true,
+        "windowSizeMs": 5000,
+        "windowIncreaseMs": 500,
+        "frequencyHz": 100,
+        "labelingMethodMultiLabel": {
+          "type": "end-of-window"
+        },
+        "createdBy": "createImpulse",
+        "createdAt": "2026-02-22T15:17:43.463Z"
+      }
+    ],
+    "dspBlocks": [
+      {
+        "metadata": {
+          "created": "2026-02-22T17:01:51.560Z",
+          "dspConfig": {
+            "options": {
+              "scaling": true,
+              "scaling_raw": false,
+              "padding": true
+            },
+            "calculateFeatureImportance": false,
+            "normalizeData": "none"
+          },
+          "labels": [
+            "Up_Down_Continuous",
+            "Waving",
+            "hop_on_desk",
+            "idle_samples"
+          ],
+          "valuesPerAxis": 501.3333333333333,
+          "windowCount": 1922,
+          "featureCount": 3008,
+          "windowSizeMs": 5000,
+          "windowIncreaseMs": 500,
+          "frequency": 100,
+          "padZeros": true,
+          "outputConfig": {
+            "type": "flat",
+            "shape": {
+              "width": 3008
+            }
+          },
+          "fftUsed": [],
+          "includeEmptyLabels": false,
+          "inputShape": [
+            3000
+          ],
+          "includedSamplesAreInOrder": true,
+          "resamplingAlgorithmVersion": 2,
+          "doesntContainNegativeSampleIds": true
+        },
+        "id": 2,
+        "type": "syntiant-imu",
+        "name": "Syntiant IMU",
+        "axes": [
+          "accel_x",
+          "accel_y",
+          "accel_z",
+          "gyro_x",
+          "gyro_y",
+          "gyro_z"
+        ],
+        "title": "IMU (Syntiant)",
+        "input": 1,
+        "implementationVersion": 1,
+        "createdBy": "createImpulse",
+        "createdAt": "2026-02-22T15:17:43.463Z"
+      }
+    ],
+    "learnBlocks": [
+      {
+        "thresholds": {
+          "minConfidenceRating": 0.6
+        },
+        "id": 3,
+        "type": "keras",
+        "name": "Classifier",
+        "dsp": [
+          2
+        ],
+        "title": "Classification",
+        "createdBy": "createImpulse",
+        "createdAt": "2026-02-22T15:17:43.463Z"
+      }
+    ]
+  },
+  "project": {
+    "name": "aa08453-project-1",
+    "id": 684823,
+    "owner": "aa08453",
+    "apiKey": "ei_8e422e4d567507548da6b3890bafffd6a0376f9bb94d7f5563fb46401c8b6fb1",
+    "studioHost": "studio.edgeimpulse.com",
+    "impulseId": 1
+  },
+  "sensor": "fusion",
+  "tfliteModels": [
+    {
+      "arenaSize": 7110,
+      "inputFrameSize": 3008,
+      "inputTensor": "dense_input",
+      "outputTensor": "y_pred/Softmax:0",
+      "details": {
+        "modelType": "int8",
+        "inputs": [
+          {
+            "dataType": "int8",
+            "name": "serving_default_x:0",
+            "shape": [
+              1,
+              3008
+            ],
+            "quantizationScale": 0.031004901975393295,
+            "quantizationZeroPoint": -2
+          }
+        ],
+        "outputs": [
+          {
+            "dataType": "int8",
+            "name": "StatefulPartitionedCall:0",
+            "shape": [
+              1,
+              4
+            ],
+            "quantizationScale": 0.00390625,
+            "quantizationZeroPoint": -128
+          }
+        ]
+      },
+      "modelPath": "/home/input/trained.tflite"
+    }
+  ]
+}
