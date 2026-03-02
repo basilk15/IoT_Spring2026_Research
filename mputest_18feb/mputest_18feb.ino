@@ -89,22 +89,26 @@ void loop() {
 
   mpu.getEvent(&a, &g, &temp);  // DO NOT pass NULL
 
-  Serial.print("Acceleration X: ");
+  // Serial.print("Acceleration X: ");
   Serial.print(a.acceleration.x);
-  Serial.print(", Y: ");
+  Serial.print(","); // Add a tab between values
+  // Serial.print(", Y: ");
   Serial.print(a.acceleration.y);
-  Serial.print(", Z: ");
+  Serial.print(","); // Add a tab between values
+  // Serial.print(", Z: ");
   Serial.print(a.acceleration.z);
-  Serial.println(" m/s^2");
+  Serial.print(","); // Add a tab between values
+  // Serial.println(" m/s^2");
 
-  Serial.print("Rotation X: ");
+  // Serial.print("Rotation X: ");
   Serial.print(g.gyro.x);
-  Serial.print(", Y: ");
+  Serial.print(","); // Add a tab between values
+  // Serial.print(", Y: ");
   Serial.print(g.gyro.y);
-  Serial.print(", Z: ");
+  Serial.print(","); // Add a tab between values
+  // Serial.print(", Z: ");
   Serial.print(g.gyro.z);
-  Serial.println(" rad/s");
-
+  // Serial.println(" rad/s");
   Serial.println("");
   delay(500);
 }
