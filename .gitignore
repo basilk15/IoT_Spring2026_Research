@@ -1,0 +1,5 @@
+.venv/*
+main.o
+build/
+
+

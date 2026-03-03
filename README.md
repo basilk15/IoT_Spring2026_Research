@@ -28,6 +28,13 @@ Arduino-based sensor prototypes for:
 3. Install missing libraries from Library Manager.
 4. Upload and open Serial Monitor at `115200` baud.
 
+
+For running the edge impulse model, navigate to the cpp library folder. There:
+
+run ```make j -4```
+
+then ```build/app```
+
 ## Configuration Notes
 
 ### CC2650 + ESP32 (`cc2650_w_esp32.ino`)
@@ -41,3 +48,5 @@ Arduino-based sensor prototypes for:
   - Accelerometer range: `+-8G`
   - Gyro range: `+-500 deg/s`
   - Filter bandwidth: `5 Hz`
+
+
