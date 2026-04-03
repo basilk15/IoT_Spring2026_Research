@@ -1,0 +1,309 @@
+─ Starting federated round ──
+[FL] Model fetched (round 1)
+[CYCLES] download_model=787346238
+[CYCLES] sensor_collection=240052554
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0004
+  Epoch 2  loss=0.0002
+  Epoch 3  loss=0.0002
+  Epoch 4  loss=0.0001
+  Epoch 5  loss=0.0001
+[CYCLES] local_training_total=2546534
+[FL] Upload OK ✓
+[CYCLES] upload_weights=52957657
+[CYCLES] round_total=1082977446
+
+Starting federated round ──
+[FL] Model fetched (round 1)
+[CYCLES] download_model=787346238
+[CYCLES] sensor_collection=240052554
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0004
+  Epoch 2  loss=0.0002
+  Epoch 3  loss=0.0002
+  Epoch 4  loss=0.0001
+  Epoch 5  loss=0.0001
+[CYCLES] local_training_total=2546534
+[FL] Upload OK ✓
+[CYCLES] upload_weights=52957657
+[CYCLES] round_total=1082977446
+
+
+[FL] Model fetched (round 2)
+[CYCLES] download_model=163939821
+[CYCLES] sensor_collection=239943069
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2586362
+[FL] Upload OK ✓
+[CYCLES] upload_weights=109935376
+[CYCLES] round_total=516474042
+���������������������������������������������������������������� ──
+[FL] Model fetched (round 2)
+[CYCLES] download_model=182327358
+[CYCLES] sensor_collection=240034974
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2556038
+[FL] Upload OK ✓
+[CYCLES] upload_weights=137089252
+[CYCLES] round_total=562077312
+
+
+[FL] Model fetched (round 3)
+[CYCLES] download_model=24972291
+[CYCLES] sensor_collection=239950824
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2551283
+[FL] Upload OK ✓
+[CYCLES] upload_weights=31976089
+[CYCLES] round_total=299518863
+
+── Starting federated round ──
+[FL] Model fetched (round 3)
+[CYCLES] download_model=199606071
+[CYCLES] sensor_collection=240037029
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2551835
+[FL] Upload OK ✓
+[CYCLES] upload_weights=39163264
+[CYCLES] round_total=481427132
+
+
+[FL] Upload OK ✓
+[CYCLES] upload_weights=39163264
+[CYCLES] round_total=481427132
+
+── Starting federated round ──
+[FL] Model fetched (round 4)
+[CYCLES] download_model=134432085
+[CYCLES] sensor_collection=239930805
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2558930
+[FL] Upload OK ✓
+[CYCLES] upload_weights=38458762
+[CYCLES] round_total=415448376
+
+── Starting federated round ──
+[FL] Model fetched (round 4)
+[CYCLES] download_model=66624924
+[CYCLES] sensor_collection=240050715
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552282
+[FL] Upload OK ✓
+[CYCLES] upload_weights=54283027
+[CYCLES] round_total=363587363
+
+
+── Starting federated round ──
+[FL] Model fetched (round 5)
+[CYCLES] download_model=120751774
+[CYCLES] sensor_collection=239926815
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552120
+[FL] Upload OK ✓
+[CYCLES] upload_weights=144284383
+[CYCLES] round_total=507588475
+���������������������������������������������������������������� ──
+[FL] Model fetched (round 5)
+[CYCLES] download_model=296570163
+[CYCLES] sensor_collection=240032751
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552657
+[FL] Upload OK ✓
+[CYCLES] upload_weights=20944614
+[CYCLES] round_total=560169918
+
+
+[FL] Model fetched (round 6)
+[CYCLES] download_model=123053799
+[CYCLES] sensor_collection=240028734
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2554448
+[FL] Upload OK ✓
+[CYCLES] upload_weights=44489911
+[CYCLES] round_total=410195064
+
+── Starting federated round ──
+[FL] Model fetched (round 6)
+[CYCLES] download_model=878427879
+[CYCLES] sensor_collection=239935254
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552729
+[FL] Upload OK ✓
+[CYCLES] upload_weights=341332930
+[CYCLES] round_total=1462317612
+
+
+[CYCLES] local_training_total=2552729
+[FL] Upload OK ✓
+[CYCLES] upload_weights=341332930
+[CYCLES] round_total=1462317612
+
+── Starting federated round ──
+[FL] Model fetched (round 7)
+[CYCLES] download_model=14887833
+[CYCLES] sensor_collection=239955282
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552147
+[FL] Upload OK ✓
+[CYCLES] upload_weights=78051969
+[CYCLES] round_total=335515659
+���������������������������������������������������������������� ──
+[FL] Model fetched (round 7)
+[CYCLES] download_model=25341912
+[CYCLES] sensor_collection=240061485
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552360
+[FL] Upload OK ✓
+[CYCLES] upload_weights=68453002
+[CYCLES] round_total=336477405
+
+
+─ Starting federated round ──
+[FL] Model fetched (round 8)
+[CYCLES] download_model=82850148
+[CYCLES] sensor_collection=239912937
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552750
+[FL] Upload OK ✓
+[CYCLES] upload_weights=219644634
+[CYCLES] round_total=545029358
+
+── Starting federated round ──
+[FL] Model fetched (round 8)
+[CYCLES] download_model=23917269
+[CYCLES] sensor_collection=240043452
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2552987
+[FL] Upload OK ✓
+[CYCLES] upload_weights=52370629
+[CYCLES] round_total=318955650
+
+[FL] Model fetched (round 9)
+[CYCLES] download_model=10332198
+[CYCLES] sensor_collection=239951758
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2554151
+[FL] Upload OK ✓
+[CYCLES] upload_weights=45288061
+[CYCLES] round_total=298198404
+���������������������������������������������������������������� ──
+[FL] Model fetched (round 9)
+[CYCLES] download_model=83592126
+[CYCLES] sensor_collection=240131241
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2553749
+[FL] Upload OK ✓
+[CYCLES] upload_weights=65572062
+[CYCLES] round_total=391917669
+
+
+── Starting federated round ──
+[FL] Model fetched (round 10)
+[CYCLES] download_model=74596629
+[CYCLES] sensor_collection=240007305
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2553647
+[FL] Upload OK ✓
+[CYCLES] upload_weights=29089365
+[CYCLES] round_total=346314768
+
+── Starting federated round ──
+[FL] Model fetched (round 10)
+[CYCLES] download_model=182555892
+[CYCLES] sensor_collection=240048129
+[FL] Collected 50 samples
+  Epoch 1  loss=0.0000
+  Epoch 2  loss=0.0000
+  Epoch 3  loss=0.0000
+  Epoch 4  loss=0.0000
+  Epoch 5  loss=0.0000
+[CYCLES] local_training_total=2554127
+[FL] Upload OK ✓
+[CYCLES] upload_weights=40362139
+[CYCLES] round_total=465588298
+
